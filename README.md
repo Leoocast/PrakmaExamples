@@ -2,8 +2,12 @@
 <p align="center">
   <img src="https://github.com/Leoocast/Prakma/blob/master/dist/img/prakma.png?raw=true" alt="Logo"/>
 </p>
-<h1 align="center">Prakma.js Examples</h1>
-<h2 href="https://leoocast.github.io/PrakmaExamples/dist/home" align="center"><ins>View Examples</ins></h2>
+<h1 align="center">Prakma.js</h1>
+<p align="center">
+<a href="https://leoocast.github.io/PrakmaExamples/dist/home" align="center"><ins>View Examples</ins>
+</a>
+</p>
+
 <p align="center">
 </br>
 <img alt="Downloads" src="https://img.shields.io/npm/dw/prakma?label=Downloads" height="20"/></a>
