@@ -13,8 +13,8 @@
   </strong>
 </p>
 <p align="center">
-  <img alt="Downloads" src="https://img.shields.io/npm/dw/prakma?label=Downloads" height="20"/></a>
-  <img alt="Downloads" src="https://img.shields.io/npm/l/prakma?color=informational&label=License" height="20"/></a>
+  <img alt="Downloads" src="https://img.shields.io/npm/dw/prakma?label=Downloads" height="20"/>
+  <img alt="Downloads" src="https://img.shields.io/npm/l/prakma?color=informational&label=License" height="20"/>
 
   <a href="https://www.npmjs.com/package/prakma/">
     <img alt="NPM Version" src="https://img.shields.io/npm/v/prakma?label=Version" height="20"/>
@@ -23,7 +23,7 @@
   <img alt="Downloads" src="https://img.shields.io/badge/Contributors-1-orange" height="20"/>
 </p>
 <p align="center">
-  JS framework to write JSX </br>
+  JS framework to write JSX
 </p>
 
 * **Simple**: You don't have to worry about compile, the webpack preloaded config does it for you.
