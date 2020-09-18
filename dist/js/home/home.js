@@ -93,18 +93,29 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \".mdl-layout__header {\\n  background-color: #221436;\\n  font-family: 'Segoe-UI'; }\\n\\n.mdl-layout__drawer {\\n  background-color: #221436;\\n  border-right: 0px; }\\n\\n.mdl-layout-title {\\n  color: #fff !important; }\\n\\n.mdl-navigation__link {\\n  color: #fff !important; }\\n  .mdl-navigation__link:hover {\\n    background-color: #E30286 !important; }\\n\", \"\"]);\n\n\n//# sourceURL=webpack:///./src/components/menu/menu.style.sass?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
+eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \".mdl-layout__header {\\n  background-color: #221436;\\n  font-family: 'Segoe-UI'; }\\n\\n.mdl-layout__drawer {\\n  background-color: #221436;\\n  border-right: 0px; }\\n\\n.mdl-layout-title {\\n  color: #fff !important; }\\n\\n.mdl-navigation__link {\\n  color: #fff !important; }\\n  .mdl-navigation__link:hover {\\n    background-color: #E30286 !important; }\\n\\n@media screen and (max-width: 1024px) {\\n  .mdl-layout__drawer-button {\\n    margin: 4px;\\n    color: white; } }\\n\", \"\"]);\n\n\n//# sourceURL=webpack:///./src/components/menu/menu.style.sass?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/views/home/components/prakma/Prakma.style.sass":
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/views/home/components/prakma/prakma.animations.sass":
+/*!**********************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/views/home/components/prakma/prakma.animations.sass ***!
+  \**********************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"@keyframes fall-down {\\n  0% {\\n    transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);\\n    transform-origin: 50% 0%;\\n    filter: blur(40px);\\n    opacity: 0; }\\n  100% {\\n    transform: translateY(0) scaleY(1) scaleX(1);\\n    transform-origin: 50% 50%;\\n    filter: blur(0);\\n    opacity: 1; } }\\n\\n@keyframes blur-to-center {\\n  0% {\\n    transform: scale(2);\\n    filter: blur(4px);\\n    opacity: 0; }\\n  100% {\\n    transform: scale(1);\\n    filter: blur(0px);\\n    opacity: 1;\\n    z-index: 99; } }\\n\\n@keyframes zoom-in {\\n  0% {\\n    transform: scale(0);\\n    opacity: 0; }\\n  100% {\\n    transform: scale(1);\\n    opacity: 1 !important; } }\\n\", \"\"]);\n\n\n//# sourceURL=webpack:///./src/views/home/components/prakma/prakma.animations.sass?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/views/home/components/prakma/prakma.style.sass":
 /*!*****************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/views/home/components/prakma/Prakma.style.sass ***!
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/views/home/components/prakma/prakma.style.sass ***!
   \*****************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"body {\\n  background-color: #221435;\\n  color: white; }\\n\\n.container2 {\\n  display: flex;\\n  justify-content: center;\\n  flex-direction: column;\\n  margin-top: 20vh;\\n  align-items: center; }\\n\\n.logo {\\n  margin-bottom: 20px; }\\n\\n.fall-down {\\n  animation: fall-down 0.6s; }\\n\\n.zoom-in {\\n  animation: zoom-in 0.5s; }\\n\\n.blur-to-center {\\n  animation: blur-to-center 0.5s; }\\n\\n@keyframes fall-down {\\n  0% {\\n    transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);\\n    transform-origin: 50% 0%;\\n    filter: blur(40px);\\n    opacity: 0; }\\n  100% {\\n    transform: translateY(0) scaleY(1) scaleX(1);\\n    transform-origin: 50% 50%;\\n    filter: blur(0);\\n    opacity: 1; } }\\n\\n@keyframes blur-to-center {\\n  0% {\\n    transform: scale(2);\\n    filter: blur(4px);\\n    opacity: 0; }\\n  100% {\\n    transform: scale(1);\\n    filter: blur(0px);\\n    opacity: 1; } }\\n\\n@keyframes zoom-in {\\n  0% {\\n    transform: scale(0);\\n    opacity: 1; }\\n  100% {\\n    transform: scale(1);\\n    opacity: 1; } }\\n\", \"\"]);\n\n\n//# sourceURL=webpack:///./src/views/home/components/prakma/Prakma.style.sass?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
+eval("exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"body {\\n  background-color: #221435;\\n  color: white; }\\n\\n.container {\\n  display: flex;\\n  justify-content: center;\\n  flex-direction: column;\\n  margin-top: 20vh;\\n  align-items: center; }\\n\\n.logo {\\n  margin-bottom: 20px; }\\n\\n.fall-down {\\n  animation: fall-down 0.6s; }\\n\\n.zoom-in {\\n  animation: zoom-in 0.5s; }\\n\\n.blur-to-center {\\n  animation: blur-to-center 0.5s; }\\n\", \"\"]);\n\n\n//# sourceURL=webpack:///./src/views/home/components/prakma/prakma.style.sass?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -167,14 +178,14 @@ eval("exports.__esModule=true;exports.Main=void 0;var _prakma=__webpack_require_
 
 /***/ }),
 
-/***/ "./src/views/home/components/prakma/Prakma.style.sass":
-/*!************************************************************!*\
-  !*** ./src/views/home/components/prakma/Prakma.style.sass ***!
-  \************************************************************/
+/***/ "./src/views/home/components/prakma/prakma.animations.sass":
+/*!*****************************************************************!*\
+  !*** ./src/views/home/components/prakma/prakma.animations.sass ***!
+  \*****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var api = __webpack_require__(/*! ../../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../../node_modules/css-loader/dist/cjs.js!../../../../../node_modules/sass-loader/dist/cjs.js!./Prakma.style.sass */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/views/home/components/prakma/Prakma.style.sass\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\n\n\nmodule.exports = content.locals || {};\n\n//# sourceURL=webpack:///./src/views/home/components/prakma/Prakma.style.sass?");
+eval("var api = __webpack_require__(/*! ../../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../../node_modules/css-loader/dist/cjs.js!../../../../../node_modules/sass-loader/dist/cjs.js!./prakma.animations.sass */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/views/home/components/prakma/prakma.animations.sass\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\n\n\nmodule.exports = content.locals || {};\n\n//# sourceURL=webpack:///./src/views/home/components/prakma/prakma.animations.sass?");
 
 /***/ }),
 
@@ -186,7 +197,18 @@ eval("var api = __webpack_require__(/*! ../../../../../node_modules/style-loader
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("exports.__esModule=true;exports.PrakmaComponent=void 0;__webpack_require__(/*! ./Prakma.style.sass */ \"./src/views/home/components/prakma/Prakma.style.sass\");var PrakmaComponent=function PrakmaComponent(){return Prakma(\"div\",{className:\"container2\"},Prakma(\"img\",{src:\"img/prakma_logo.png\",className:\"fall-down logo\"}),Prakma(\"h1\",{className:\"zoom-in\"},\"Prakma.js\"),Prakma(\"p\",{className:\"blur-to-center\"},\"\\xA9 2020 - Leo Castellanos\"));};exports.PrakmaComponent=PrakmaComponent;\n\n//# sourceURL=webpack:///./src/views/home/components/prakma/prakma.component.jsx?");
+eval("exports.__esModule=true;exports.PrakmaComponent=void 0;__webpack_require__(/*! ./prakma.animations.sass */ \"./src/views/home/components/prakma/prakma.animations.sass\");__webpack_require__(/*! ./prakma.style.sass */ \"./src/views/home/components/prakma/prakma.style.sass\");var PrakmaComponent=function PrakmaComponent(){return Prakma(\"div\",{\"class\":\"container\"},Prakma(\"img\",{src:\"img/prakma_logo.png\",\"class\":\"fall-down logo\"}),Prakma(\"h1\",{\"class\":\"zoom-in\"},\"Prakma.js\"),Prakma(\"p\",{\"class\":\"blur-to-center\"},\"\\xA9 2020 - Leo Castellanos\"));};exports.PrakmaComponent=PrakmaComponent;\n\n//# sourceURL=webpack:///./src/views/home/components/prakma/prakma.component.jsx?");
+
+/***/ }),
+
+/***/ "./src/views/home/components/prakma/prakma.style.sass":
+/*!************************************************************!*\
+  !*** ./src/views/home/components/prakma/prakma.style.sass ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../../node_modules/css-loader/dist/cjs.js!../../../../../node_modules/sass-loader/dist/cjs.js!./prakma.style.sass */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/views/home/components/prakma/prakma.style.sass\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\n\n\nmodule.exports = content.locals || {};\n\n//# sourceURL=webpack:///./src/views/home/components/prakma/prakma.style.sass?");
 
 /***/ }),
 

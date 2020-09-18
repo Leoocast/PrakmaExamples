@@ -1,9 +1,11 @@
+import '../../../home/components/prakma/prakma.style.sass'
+import '../../../home/components/prakma/prakma.animations.sass'
 import './form.code'
 import './form.style.sass'
 
 export const Form = () => (
   <div class="materialContainer">
-      <div class="box">
+      <div class="box zoom-in">
         <div class="title">LOGIN</div>
         <div class="input">
             <label for="name">Username</label>
@@ -20,7 +22,7 @@ export const Form = () => (
         </div>
         <a href="" class="pass-forgot">Forgot your password?</a>
       </div>
-      <div class="overbox">
+      <div class="overbox blur-to-center">
         <div class="material-button alt-2"><span class="shape"></span></div>
         <div class="title">REGISTER</div>
         <div class="input">
