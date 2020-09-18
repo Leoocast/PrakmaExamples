@@ -1,0 +1,20 @@
+{
+	"presets": [
+		[
+			"@babel/preset-env",
+			{
+			"modules": "commonjs",
+			"loose": true
+			}
+		]
+	],
+	"compact" : true,
+	"plugins": [
+		"@babel/plugin-transform-runtime",
+		[
+			"@babel/plugin-transform-react-jsx", {
+				"pragma": "Prakma"
+			}
+		]
+	]
+}

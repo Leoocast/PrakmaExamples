@@ -1,0 +1,86 @@
+{
+  "_from": "prakma",
+  "_id": "prakma@1.0.9",
+  "_inBundle": false,
+  "_integrity": "sha512-eqwb9giNPM28C3JPsK2guD20qLsFHj2o6B1057TX6aQzKuJps97jGQbBNjxD3o7grW9diCiKmQyZ0IiTeBS5TA==",
+  "_location": "/prakma",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "prakma",
+    "name": "prakma",
+    "escapedName": "prakma",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/prakma/-/prakma-1.0.9.tgz",
+  "_shasum": "5c4bbf132f1f9733b297544cfdc1bf2c329687d0",
+  "_spec": "prakma",
+  "_where": "C:\\Users\\GeekSide\\Desktop\\PrakmaExamples",
+  "author": {
+    "name": "Leo Castellanos"
+  },
+  "bugs": {
+    "url": "https://github.com/Leoocast/Prakma/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@babel/core": "^7.11.5",
+    "@babel/plugin-transform-react-jsx": "^7.10.4",
+    "@babel/plugin-transform-runtime": "^7.11.5",
+    "@babel/preset-env": "^7.11.5",
+    "css-loader": "3.0.0",
+    "jquery": "^3.5.1",
+    "node-sass": "^4.14.1",
+    "sass-loader": "7.3.1",
+    "style-loader": "^1.2.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "deprecated": false,
+  "description": "A custom js pragma to write JSX syntax. Supports import statement, async functions, children inside components and more.",
+  "devDependencies": {
+    "babel-loader": "^8.0.6",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.17",
+    "webpack": "^4.44.1",
+    "webpack-dev-server": "^2.9.3",
+    "webpack-merge": "^4.1.1"
+  },
+  "homepage": "https://github.com/Leoocast/Prakma#readme",
+  "keywords": [
+    "js",
+    "jsx",
+    "custom",
+    "pragma",
+    "prakma",
+    "react",
+    "webpack",
+    "babel",
+    "@prakma",
+    "love"
+  ],
+  "license": "MIT",
+  "main": "",
+  "name": "prakma",
+  "peerDependencies": {
+    "babel-core": "6.x || ^7.0.0-bridge.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leoocast/Prakma.git"
+  },
+  "scripts": {
+    "build": "npx webpack --config webpack.prod.config.js --mode production",
+    "export-linux": "mv ./* ../../ && mv ./.* ../../",
+    "export-windows": "move ./* ../../ && move src ../../ && move dist ../../",
+    "watch": "npx webpack --config webpack.config.js"
+  },
+  "version": "1.0.9"
+}
