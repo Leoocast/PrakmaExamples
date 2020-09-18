@@ -1,15 +1,15 @@
 <p align="center">
   <img src="https://github.com/Leoocast/Prakma/blob/master/dist/img/prakma.png?raw=true" alt="Logo"/>
 </p>
-<h1 align="center">Prakma.js</h1>
+<h1 align="center">Prakma.js Examples</h1>
 <p align="center">
   <strong>
-    <a href="https://leoocast.github.io/PrakmaExamples/dist/home" align="center"><ins>View Examples</ins></a>
+    <a href="https://leoocast.github.io/PrakmaExamples/dist/home" align="center"><ins>Explore</ins> ➡️</a>
   </strong>
 </p>
 <p align="center">
   <strong>
-    <a href="https://github.com/Leoocast/Prakma"><ins>Guide</ins></a>
+    <a href="https://github.com/Leoocast/Prakma"><ins>Guide</ins> 📘</a>
   </strong>
 </p>
 <p align="center">
@@ -34,5 +34,6 @@
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#installation)
 
 ## ➤ Contributors
+Here is a list of people I got inspired to make the Prakma Examples.
 
 >Yusuf Bakir https://codepen.io/yusufbkr/
